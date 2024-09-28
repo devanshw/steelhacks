@@ -1,0 +1,52 @@
+body {
+  background-color: #f28545; /* Set the background color of the entire page */
+  font-family: Arial, sans-serif; /* Optional: Set a font for the page */
+  color: #fff; /* Set the text color to white for better contrast */
+  display: flex; /* Use Flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adds space between the elements */
+  max-width: 600px; /* Increase the maximum width for the form */
+  width: 100%; /* Ensure the form takes up the full width of its container */
+  padding: 20px; /* Add some padding */
+  background-color: #fff; /* Set the background color of the form to white */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  color: #333; /* Set the text color inside the form */
+}
+
+.form-container label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%; /* Make input elements take the full width of the form */
+  padding: 8px; /* Add some padding for better readability */
+  margin-top: 5px; /* Add some space between the label and the input */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Add rounded corners */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+button {
+  background-color: #f28545; /* Set the button background color */
+  color: #fff; /* Set the button text color to white */
+  padding: 10px 20px; /* Add some padding */
+  border: none; /* Remove the border */
+  border-radius: 4px; /* Add rounded corners */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+button:hover {
+  background-color: #e6733a; /* Darken the button color on hover */
+}
